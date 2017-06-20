@@ -24,13 +24,13 @@ gsutil mb gs://[YOUR_STAGING_BUCKET_NAME]
 
 ## Demos
 
-- [Demo 1](/tree/master/demo1):
+- [Demo 1](https://github.com/jerryjj/serverless-with-gcf/tree/master/demo1):
   Simple HTTP Triggered function deployed through Cloud Console.
 
-- [Demo 2](/tree/master/demo2): Deploying function from Source Control.
+- [Demo 2](https://github.com/jerryjj/serverless-with-gcf/tree/master/demo2): Deploying function from Source Control.
 
-- [Demo 3](/tree/master/demo3): Isomorphic React Application.
+- [Demo 3](https://github.com/jerryjj/serverless-with-gcf/tree/master/demo3): Isomorphic React Application.
   Deployed to Firebase Hosting with Firebase Functions and Realtime Database.
 
-- [Demo 4](/tree/master/demo4): Full Web app with Firebase.
+- [Demo 4](https://github.com/jerryjj/serverless-with-gcf/tree/master/demo4): Full Web app with Firebase.
   Online Voice Memo -service that uses Twilio, Cloud Functions, Firebase Hosting, Firebase Realtime Database and Firebase Functions.
