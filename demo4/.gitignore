@@ -1,0 +1,6 @@
+.firebaserc
+public/config.js
+gcf/config.json
+functions/node_modules
+gcf/node_modules
+node_modules
