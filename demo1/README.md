@@ -21,7 +21,7 @@ exports.helloWorld = function helloWorld (req, res) {
 
 ## Triggering
 
-After the function has finised deploying, you can call it with ie. curl
+After the function has finished deploying, you can call it with ie. curl
 curl "https://[YOUR_REGION]-[YOUR_PROJECT_ID].cloudfunctions.net/[FUNCTION_NAME]"
 
 Examples:
