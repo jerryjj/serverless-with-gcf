@@ -1,0 +1,4 @@
+{
+  "RESULTS_BUCKET": "[PROJECT_ID].appspot.com",
+  "TWILIO_AUTH_TOKEN": "[TWILIO_AUTH_TOKEN]"
+}

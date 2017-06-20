@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "users": {
+      "$uid": {
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    },
+    "notes": {
+      "$phone": {
+        ".read": "root.child('users').child(auth.uid).child('phone').val() === $phone",
+        ".write": "root.child('users').child(auth.uid).child('phone').val() === $phone"
+      }
+    }
+  }
+}
