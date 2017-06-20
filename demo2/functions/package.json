@@ -1,0 +1,10 @@
+{
+  "name": "gcf-demo2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jerry Jalava <jerry.jalava@qvik.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/debug-agent": "^2.1.1"
+  }
+}
