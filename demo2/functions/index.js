@@ -1,6 +1,6 @@
 'use strict';
 
-require('@google-cloud/debug-agent').start();
+require('@google-cloud/trace-agent').start();
 
 exports.helloPubSub = function (event, callback) {
   const pubsubMessage = event.data;
